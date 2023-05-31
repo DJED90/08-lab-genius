@@ -1,0 +1,119 @@
+:root{
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    background-image: url(image/Geeknius\ Dark.png);
+    background-position: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+header {
+    padding: 0px 62px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+header h2 {
+    margin-right: 46px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;  
+}
+header p {
+    margin-right: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+header img{
+    margin-right: 9.75px;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(1,8fr);
+    padding-left: 262px;
+}
+.acceuil {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.text p:first-child {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text h2{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 101px;
+    letter-spacing: -3px;
+    color: #FFFFFF;
+}
+.text h2 span {
+    color: #F87F28;
+    font-weight: 700;
+}
+.text a:nth-child(1) {
+    background: #BB2323;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 12px 32px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.text a:nth-child(2) {
+    border: 2px solid #F87F28;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F87F28;
+    padding: 12px 32px;
+    margin-left: 23px;
+    text-decoration: none;
+}
+.image img {
+    padding-left: 342px;
+}
+.client{
+    grid-row-start: 2 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.client p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #BFBFBF;
+}
+
