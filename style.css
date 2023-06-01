@@ -48,12 +48,13 @@ header img{
 .box {
     display: grid;
     grid-template-columns: repeat(1,8fr);
-    padding-left: 24.25rem;
+    
 }
 .acceuil {
     display: grid;
     grid-template-columns: repeat(2,2fr);
     box-sizing: border-box;
+    padding-left: 24.25rem;
 }
 
 .text p:first-child {
@@ -62,7 +63,7 @@ header img{
     letter-spacing: 0.25em;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 33px;
+    margin-bottom: 2.0625rem;
 }
 .text p:nth-child(3){
     margin-top: 0rem;
@@ -84,7 +85,7 @@ header img{
     letter-spacing: -0.1875rem;
     color: #FFFFFF;
     margin-top: 0;
-    margin-bottom: 39px;
+    margin-bottom: 2.4375rem;
 }
 .text h2 span {
     color: #F87F28;
@@ -137,6 +138,22 @@ header img{
 }
 .logo img {
     margin-right: 3.75rem;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
+}
+.services {
+    margin-left: 26.1875rem;
+    margin-right: 25.125rem;
+}
+.skill {
+    margin-top: 9.5rem;
+    margin-bottom: 8.25rem;
+}
+.skill h2 {
+
+}
+.tableau {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 216px;
 }
 
