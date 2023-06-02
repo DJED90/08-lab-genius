@@ -30,8 +30,8 @@ header {
     box-sizing: border-box;
     margin-bottom: 50px;
 }
-header h1 {
-    margin-right: 2.875rem;
+header h2 {
+    margin-right: 100px;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 2rem;
@@ -39,13 +39,13 @@ header h1 {
     color: #FFFFFF;  
 }
 header p {
-    margin-right: 2.875rem;
+    margin-right: 46px;
 }
 header img{
     margin-right: 0.6094rem;
 }
 #menu {
-    margin-left: 69.375rem;
+    margin-left: 64.8125rem;
     margin-right: 0rem;
 }
 .container {
@@ -58,18 +58,17 @@ header img{
 .box {
     display: grid;
     grid-template-columns: repeat(1,8fr);
-    
 }
 .acceuil {
     display: grid;
     grid-template-columns: repeat(2,2fr);
     box-sizing: border-box;
-    
 }
 .text {
     padding-left: 24.25rem;
+    margin-right: 0.9375rem;
+    width: 37.8125rem;
 }
-
 .text p:first-child {
     font-family: 'Roboto';
     font-size: 0.875rem;
@@ -80,7 +79,7 @@ header img{
 }
 .text p:nth-child(3){
     margin-top: 0rem;
-    margin-right: 104px;
+    margin-right: 160px;
     margin-bottom: 1.5rem;
 }
 .text p:nth-child(4){
@@ -104,7 +103,6 @@ header img{
     color: #F87F28;
     font-weight: 700;
 }
-
 #rouge{
     background: #BB2323;
     box-shadow: 0rem 0rem 1.875rem rgba(0, 0, 0, 0.2);
@@ -204,7 +202,6 @@ header img{
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
- 
 }
 #col p {
     margin-top: 0;
@@ -221,8 +218,8 @@ header img{
     margin-right: 112px;
 }
 .portfolio {
-    padding-top: 108px;
-    padding: 108px 298px 58px 375px;
+    padding-top: 6.75rem;
+    padding: 6.75rem 23.4375rem 15.3125rem 18.625rem;
     display: flex;
     justify-content: center;
 }
@@ -239,6 +236,64 @@ header img{
     font-size: 0.875rem;
 }
 .imageportfolio img {
-    margin-right: 1.5rem;
+    margin-right: 24px;
     margin-bottom: 1.5rem;
+}
+.experience {
+    display: flex;
+    padding-left: 390px;
+    padding-right: 360px;
+}
+.experiencetext {
+    padding-right: 121px;
+}
+.experiencetext h2 {
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+#descriptionexperience {
+    margin-top: 0;
+    margin-bottom: 41px;
+    margin-right: 121px;
+}
+.experiencetext p:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.experiencetableau {
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+}
+.experiencedate {
+    padding-right: 75px;
+}
+.experiencedate p {
+    margin-top: 0px;
+    margin-bottom: 13px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.experiencedate  p  img {
+    margin-right: 27px;
+}
+.experiencedate h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 115px;
+    margin-left: 50px;
+}
+.experiencedescription p {
+    margin-top: 0;
+    margin-bottom: 90px;
+    font-size: 14px;
+}
+.experiencedescription p:nth-child(2) {
+    margin-bottom: 140px;
 }
