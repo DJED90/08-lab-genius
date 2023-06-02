@@ -12,15 +12,25 @@ body {
     line-height: 1.5rem;
     color: #FFFFFF;
 }
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+}
+h2 span {
+    text-decoration: underline;
+    text-underline-offset: 1.125rem;
+    text-decoration-color: rgba(248, 127, 40, 1);
+}
 header {
     padding: 0rem 3.875rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
-header h2 {
+header h1 {
     margin-right: 2.875rem;
     font-family: 'Roboto';
     font-weight: 900;
@@ -54,6 +64,9 @@ header img{
     display: grid;
     grid-template-columns: repeat(2,2fr);
     box-sizing: border-box;
+    
+}
+.text {
     padding-left: 24.25rem;
 }
 
@@ -67,7 +80,7 @@ header img{
 }
 .text p:nth-child(3){
     margin-top: 0rem;
-    margin-right: 16.3125rem;
+    margin-right: 104px;
     margin-bottom: 1.5rem;
 }
 .text p:nth-child(4){
@@ -78,7 +91,7 @@ header img{
     margin-top: 0;
     margin-bottom: 1.3125rem;
 }
-.text h2{
+.text h1{
     font-weight: 400;
     font-size: 4.5rem;
     line-height: 6.3125rem;
@@ -87,7 +100,7 @@ header img{
     margin-top: 0;
     margin-bottom: 2.4375rem;
 }
-.text h2 span {
+.text h1 span {
     color: #F87F28;
     font-weight: 700;
 }
@@ -115,10 +128,15 @@ header img{
     text-decoration: none;
     display: inline-block;
 }
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
 .client{
     grid-row-start: 2 ;
     grid-column-start: 1;
     grid-column-end: 3;
+   
 }
 .client p{
     font-family: 'Roboto';
@@ -130,11 +148,15 @@ header img{
     letter-spacing: 0.1875rem;
     text-transform: uppercase;
     color: #BFBFBF;
-    margin-right: 25.875rem;
+    margin-right: 430px;
     margin-top: 12.625rem;
+    margin-left: 400px;
 }
 .logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .logo img {
     margin-right: 3.75rem;
@@ -151,17 +173,9 @@ header img{
     padding: 0px 370px;
 }
 .skill h2 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 60px;
     margin-bottom: 45px;
     margin-top: 0;
-    }
-.skill span {
-    text-decoration: underline;
-    text-underline-offset: 1.125rem;
-    text-decoration-color: rgba(248, 127, 40, 1);
-}
+ }
 .skill p {
     margin-top: 0;
     margin-bottom: 0;
@@ -205,4 +219,26 @@ header img{
 }
 #col:nth-child(3) p {
     margin-right: 112px;
+}
+.portfolio {
+    padding-top: 108px;
+    padding: 108px 298px 58px 375px;
+    display: flex;
+    justify-content: center;
+}
+.textportfolio {
+    padding-right: 77px;
+}
+.textportfolio h2 {
+    margin-top: 0;
+    margin-bottom: 2.0131rem;
+}
+.textportfolio p {
+    margin-top: 0;
+    margin-right: 2.0169rem;
+    font-size: 0.875rem;
+}
+.imageportfolio img {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
 }
