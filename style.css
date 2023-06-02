@@ -92,7 +92,7 @@ header img{
     font-weight: 700;
 }
 
-.text a:nth-child(1) {
+#rouge{
     background: #BB2323;
     box-shadow: 0rem 0rem 1.875rem rgba(0, 0, 0, 0.2);
     border-radius: 3.125rem;
@@ -141,19 +141,68 @@ header img{
     margin-bottom: 3.75rem;
 }
 .services {
-    margin-left: 26.1875rem;
-    margin-right: 25.125rem;
+    margin-left: 403px;
+    margin-right: 402px;
 }
 .skill {
     margin-top: 9.5rem;
     margin-bottom: 8.25rem;
+    text-align: center;
+    padding: 0px 370px;
 }
 .skill h2 {
-
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 45px;
+    margin-top: 0;
+    }
+.skill span {
+    text-decoration: underline;
+    text-underline-offset: 1.125rem;
+    text-decoration-color: rgba(248, 127, 40, 1);
+}
+.skill p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 24px;
 }
 .tableau {
     display: flex;
     justify-content: center;
-    margin-bottom: 216px;
+    margin-bottom: 13.5rem;
 }
-
+#col {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#col img{
+    background: #FFFFFF;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 1.125rem;
+    padding: 1rem;
+}
+#col h3 {
+    margin-top: 35px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+ 
+}
+#col p {
+    margin-top: 0;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+#col:first-child p {
+    margin-right: 115px;
+}
+#col:nth-child(2) p {
+    margin-right: 112px;
+}
+#col:nth-child(3) p {
+    margin-right: 112px;
+}
