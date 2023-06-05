@@ -456,6 +456,7 @@ header img{
 #texttemoignages p:nth-child(2) {
     margin-top: 0;
     margin-bottom: 37.36px;
+    padding-right: 47px;
     font-style: italic;
     font-size: 21px;
     line-height: 36px;
