@@ -14,8 +14,8 @@ body {
 }
 h2 {
     font-weight: 600;
-    font-size: 36px;
-    line-height: 60px;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
 }
 h2 span {
     text-decoration: underline;
@@ -28,10 +28,10 @@ header {
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 header h2 {
-    margin-right: 100px;
+    margin-right: 6.25rem;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 2rem;
@@ -69,6 +69,11 @@ header img{
     margin-right: 0.9375rem;
     width: 37.8125rem;
 }
+.text p span {
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-decoration-color: rgba(248, 127, 40, 1);
+}
 .text p:first-child {
     font-family: 'Roboto';
     font-size: 0.875rem;
@@ -79,7 +84,7 @@ header img{
 }
 .text p:nth-child(3){
     margin-top: 0rem;
-    margin-right: 160px;
+    margin-right: 10rem;
     margin-bottom: 1.5rem;
 }
 .text p:nth-child(4){
@@ -146,9 +151,9 @@ header img{
     letter-spacing: 0.1875rem;
     text-transform: uppercase;
     color: #BFBFBF;
-    margin-right: 430px;
+    margin-right: 26.875rem;
     margin-top: 12.625rem;
-    margin-left: 400px;
+    margin-left: 25rem;
 }
 .logo {
     display: flex;
@@ -161,24 +166,24 @@ header img{
     margin-bottom: 3.75rem;
 }
 .services {
-    margin-left: 403px;
-    margin-right: 402px;
+    margin-left: 25.1875rem;
+    margin-right: 25.125rem;
 }
 .skill {
     margin-top: 9.5rem;
     margin-bottom: 8.25rem;
     text-align: center;
-    padding: 0px 370px;
+    padding: 0rem 23.125rem;
 }
 .skill h2 {
-    margin-bottom: 45px;
+    margin-bottom: 2.8125rem;
     margin-top: 0;
  }
 .skill p {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
 }
 .tableau {
     display: flex;
@@ -197,11 +202,11 @@ header img{
     padding: 1rem;
 }
 #col h3 {
-    margin-top: 35px;
-    margin-bottom: 16px;
+    margin-top: 2.1875rem;
+    margin-bottom: 1rem;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.375rem;
 }
 #col p {
     margin-top: 0;
@@ -209,22 +214,22 @@ header img{
     line-height: 1.5rem;
 }
 #col:first-child p {
-    margin-right: 115px;
+    margin-right: 7.1875rem;
 }
 #col:nth-child(2) p {
-    margin-right: 112px;
+    margin-right: 7rem;
 }
 #col:nth-child(3) p {
-    margin-right: 112px;
+    margin-right: 7rem;
 }
 .portfolio {
     padding-top: 6.75rem;
-    padding: 6.75rem 23.4375rem 15.3125rem 18.625rem;
+    padding: 108px 350px 237px 345px;
     display: flex;
     justify-content: center;
 }
 .textportfolio {
-    padding-right: 77px;
+    padding-right: 4.8125rem;
 }
 .textportfolio h2 {
     margin-top: 0;
@@ -236,25 +241,26 @@ header img{
     font-size: 0.875rem;
 }
 .imageportfolio img {
-    margin-right: 24px;
+    margin-right: 1.5rem;
     margin-bottom: 1.5rem;
 }
 .experience {
     display: flex;
-    padding-left: 390px;
-    padding-right: 360px;
+    padding-left: 24.375rem;
+    padding-right: 22.5rem;
+    padding-bottom: 126px;
 }
 .experiencetext {
-    padding-right: 121px;
+    padding-right: 7.5625rem;
 }
 .experiencetext h2 {
     margin-top: 0;
-    margin-bottom: 47px;
+    margin-bottom: 2.9375rem;
 }
 #descriptionexperience {
     margin-top: 0;
-    margin-bottom: 41px;
-    margin-right: 121px;
+    margin-bottom: 2.5625rem;
+    margin-right: 7.5625rem;
 }
 .experiencetext p:nth-child(3) {
     margin-top: 0;
@@ -265,35 +271,157 @@ header img{
     grid-template-columns: repeat(2,3fr);
 }
 .experiencedate {
-    padding-right: 75px;
+    padding-right: 4.6875rem;
 }
 .experiencedate p {
-    margin-top: 0px;
-    margin-bottom: 13px;
+    margin-top: 0rem;
+    margin-bottom: 0.8125rem;
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 12px;
-    line-height: 17px;
-    letter-spacing: 2px;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.125rem;
     text-transform: uppercase;
 }
 .experiencedate  p  img {
-    margin-right: 27px;
+    margin-right: 1.6875rem;
+    margin-bottom: -0.3125rem;
 }
 .experiencedate h3 {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
     text-transform: capitalize;
     margin-top: 0;
-    margin-bottom: 115px;
-    margin-left: 50px;
+    margin-bottom: 108px;
+    margin-left: 3.125rem;
 }
 .experiencedescription p {
     margin-top: 0;
-    margin-bottom: 90px;
-    font-size: 14px;
+    margin-bottom: 75px;
+    font-size: 0.875rem;
 }
 .experiencedescription p:nth-child(2) {
-    margin-bottom: 140px;
+    margin-bottom: 122px;
+}
+.compétences {
+    display: flex;
+    padding: 0px 383px 258px 385px;
+}
+.compétences p span {
+    background: #F87F28;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #2C2C2C;
+    font-weight: 600;
+    padding: 1px 12px;
+}
+.imagecompétences {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   box-sizing: border-box;
+}
+.imagecompétences p {
+    margin-bottom: 24px;
+}
+.block {
+    display: flex;
+    align-items: center;
+}
+#Angular {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 8px;
+    padding: 18px 25px 18px 22.7px;
+    margin-top: 0;
+    margin-right: 25px;
+}
+#Angular img {
+    margin-right: 32px;    
+}
+#Angular span {
+    margin-left: 91px;
+}
+#React {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 0;
+    margin-right: 93px;
+}
+#React img {
+    margin-right: 23px;
+}
+#React span {
+    margin-left: 176px;
+}
+#NodeJS {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 12px;
+    padding: 18px;
+    margin-right: 25px;
+}
+#NodeJS img {
+    margin-right: 25px;
+}
+#NodeJS span {
+    margin-left: 20.27px;
+}
+#Management {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 12px;
+    padding: 18px;
+    margin-right: 213px;
+}
+#Management img {
+    margin-right: 31.6px;
+}
+#Management span {
+    margin-left: 57px;
+}
+#Analytics {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 8px;
+    padding: 18px;
+    margin-right: 35px;
+}
+#Analytics img {
+    margin-right: 30px;
+}
+#Analytics span {
+    margin-left: 58px;
+}
+#Brainstroming {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 10px;
+    padding: 18px;
+    margin-right: 156px;
+}
+#Brainstroming img {
+    margin-right: 28.71px;
+}
+#Brainstroming span {
+    margin-left: 38px;
+}
+#Execution {
+    background: #2C2C2C;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 10px;
+    width: 482px;
+    padding: 18px;
+    margin-right: 320px;
+}
+#Execution img {
+    margin-right: 32px;
+}
+#Execution span {
+    margin-left: 270px;
 }
