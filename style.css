@@ -224,7 +224,7 @@ header img{
 }
 .portfolio {
     padding-top: 6.75rem;
-    padding: 108px 350px 237px 345px;
+    padding: 108px 350px 237px 372px;
     display: flex;
     justify-content: center;
 }
@@ -240,10 +240,18 @@ header img{
     margin-right: 2.0169rem;
     font-size: 0.875rem;
 }
-.imageportfolio img {
-    margin-right: 1.5rem;
-    margin-bottom: 1.5rem;
+#astronaute,#hello {
+   margin-bottom: 24px;
+   margin-right: 24px;
 }
+#bureaux,#waterbox {
+    margin-bottom : 24px;
+}
+#writing {
+    margin-right: 24px;
+}
+
+
 .experience {
     display: flex;
     padding-left: 24.375rem;
@@ -306,7 +314,7 @@ header img{
 }
 .compétences {
     display: flex;
-    padding: 0px 383px 258px 385px;
+    padding: 0px 383px 109px 385px;
 }
 .compétences p span {
     background: #F87F28;
@@ -425,3 +433,50 @@ header img{
 #Execution span {
     margin-left: 270px;
 }
+.temoignages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 149px 511px 188.64px 502px;
+}
+.temoignages h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 90px;
+    margin-top: 0;
+
+}
+.temoignages img {
+    padding-top: 150px;
+    margin-right: 40px;
+    border-radius: 60px 25px 60px 60px;
+}
+#texttemoignages p:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 37.36px;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 36px;
+}
+#texttemoignages p:nth-child(2) span {
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    text-decoration-color: rgba(248, 127, 40, 1);
+    text-decoration-thickness: 3px;
+}
+#texttemoignages p:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+#texttemoignages p:nth-child(4) {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+} 
