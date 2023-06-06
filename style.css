@@ -250,8 +250,6 @@ header img{
 #writing {
     margin-right: 24px;
 }
-
-
 .experience {
     display: flex;
     padding-left: 24.375rem;
@@ -448,8 +446,10 @@ header img{
     margin-top: 0;
 
 }
+#textimagetemoignages {
+    display: flex;
+}
 .temoignages img {
-    padding-top: 150px;
     margin-right: 40px;
     border-radius: 60px 25px 60px 60px;
 }
@@ -470,6 +470,7 @@ header img{
 #texttemoignages p:nth-child(3) {
     margin-top: 0;
     margin-bottom: 5px;
+    margin-left: 160px;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -477,7 +478,51 @@ header img{
 #texttemoignages p:nth-child(4) {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 160px;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.5px;
 } 
+.actualité {
+    display: flex;
+    padding: 127.82px 641px 330.64px 383px ;
+    box-sizing: border-box;
+}
+#actualité-left {
+    margin-right: 92.66px;
+}
+#actualité-left h2{
+    margin: 0;
+}
+#actualité-right {
+    padding-top: 20px;
+}
+#date-actualité {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F87F28 ;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+#titreactualité {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+#textactualité {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-right: 86px;
+}
+#textactualité p {
+    padding-right: 86px;
+}
