@@ -526,3 +526,40 @@ header img{
 #textactualité p {
     padding-right: 86px;
 }
+.contact {
+    display: flex;
+    padding: 0px 364px 86px 387px;
+    column-gap: 152px;
+    box-sizing: border-box;
+}
+#contact-left h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #BFBFBF;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#contact-left 
+#imagecontact {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #F87F28;
+    margin: 0;
+}
+#imagecontact img {
+    background: #F87F28;
+    border-radius: 50px 20px 50px 50px;
+    padding: 11px;
+    margin-right: 24px;
+}
+#info {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0;
+    padding-left: 65px;
+    margin-bottom: 53px;
+}
