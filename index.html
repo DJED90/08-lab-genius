@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;700;900&display=swap"    rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>08-lab-genius</title>
 </head>
@@ -15,7 +15,7 @@
         <h2>Olivier.</h2>
         <p><img src="image/telephone.svg" alt="icone telephone">+98 76-54-1423</p>
         <p><img src="image/mail.svg" alt="icone mail">olivier.depiesse@gmail.com</p>
-        <p id="menu"><img src="image/menu.svg" alt="icone du menu deroulant"></p>
+        <p id="menu"><img srcset="image/menu375w.svg 375w, image/menu1860w.svg 1860w" width="100%" alt="icone du menu deroulant"></p>
     </header>
     <div class="container">
         <div class="box">
@@ -168,18 +168,26 @@
                 </div>
                 <div id="contact-right">
                     <h3>Contactez moi</h3>
-                    <p></p>
-                    <p></p>
-                    <div id="nom">
-                        <p>Votre nom:</p>
-                    </div>
-                    <div id="email">
-                        <p>Votre email:</p>
+                    <p>Utilisez le formulaire <br> ci-dessous pour me contacter</p>
+                    <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue..</p>
+                    <div class="formulaire">
+                        <div id="nom">
+                            <fieldset><legend>Votre nom:</legend>
+                            <label><textarea name="" id="" cols="30" rows=""></textarea></label>
+                            </fieldset>
+                        </div>
+                        <div id="email">
+                            <fieldset><legend>Votre email:</legend>
+                                <label><textarea name="" id="" cols="32" rows=""></textarea></label>
+                            </fieldset>
+                        </div>
                     </div>
                     <div id="message">
-                        <p>Message:</p>
-                    </div>
-                    <a href="">Envoyer</a>
+                        <fieldset><legend>Message:</legend>
+                        <label><textarea name="" id="" cols="77" rows="10"></textarea></label>
+                        </fieldset>
+                    </div>  
+                    <a id="rouge"href="">Envoyer</a>
                 </div>
             </div>
         </div>

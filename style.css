@@ -28,7 +28,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
 }
 header h2 {
     margin-right: 6.25rem;
@@ -39,7 +39,7 @@ header h2 {
     color: #FFFFFF;  
 }
 header p {
-    margin-right: 46px;
+    margin-right: 2.875rem;
 }
 header img{
     margin-right: 0.6094rem;
@@ -73,6 +73,7 @@ header img{
     text-decoration: underline;
     text-underline-offset: 13px;
     text-decoration-color: rgba(248, 127, 40, 1);
+    text-decoration-thickness: 0.1875rem;
 }
 .text p:first-child {
     font-family: 'Roboto';
@@ -224,7 +225,7 @@ header img{
 }
 .portfolio {
     padding-top: 6.75rem;
-    padding: 108px 350px 237px 372px;
+    padding: 6.75rem 21.875rem 14.8125rem 23.25rem;
     display: flex;
     justify-content: center;
 }
@@ -241,20 +242,20 @@ header img{
     font-size: 0.875rem;
 }
 #astronaute,#hello {
-   margin-bottom: 24px;
-   margin-right: 24px;
+   margin-bottom: 1.5rem;
+   margin-right: 1.5rem;
 }
 #bureaux,#waterbox {
-    margin-bottom : 24px;
+    margin-bottom : 1.5rem;
 }
 #writing {
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 .experience {
     display: flex;
     padding-left: 24.375rem;
     padding-right: 22.5rem;
-    padding-bottom: 126px;
+    padding-bottom: 7.875rem;
 }
 .experiencetext {
     padding-right: 7.5625rem;
@@ -299,7 +300,7 @@ header img{
     line-height: 1.625rem;
     text-transform: capitalize;
     margin-top: 0;
-    margin-bottom: 108px;
+    margin-bottom: 6.75rem;
     margin-left: 3.125rem;
 }
 .experiencedescription p {
@@ -308,21 +309,21 @@ header img{
     font-size: 0.875rem;
 }
 .experiencedescription p:nth-child(2) {
-    margin-bottom: 122px;
+    margin-bottom: 7.625rem;
 }
 .compétences {
     display: flex;
-    padding: 0px 383px 109px 385px;
+    padding: 0rem 23.9375rem 6.8125rem 24.0625rem;
 }
 .compétences p span {
     background: #F87F28;
-    border-radius: 30px;
-    font-size: 14px;
-    line-height: 24px;
+    border-radius: 1.875rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     text-align: center;
     color: #2C2C2C;
     font-weight: 600;
-    padding: 1px 12px;
+    padding: 0.0625rem 0.75rem;
 }
 .imagecompétences {
    display: flex;
@@ -331,7 +332,7 @@ header img{
    box-sizing: border-box;
 }
 .imagecompétences p {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 .block {
     display: flex;
@@ -339,110 +340,110 @@ header img{
 }
 #Angular {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 8px;
-    padding: 18px 25px 18px 22.7px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.5rem;
+    padding: 1.125rem 1.5625rem 1.125rem 1.4187rem;
     margin-top: 0;
-    margin-right: 25px;
+    margin-right: 1.5625rem;
 }
 #Angular img {
-    margin-right: 32px;    
+    margin-right: 2rem;    
 }
 #Angular span {
-    margin-left: 91px;
+    margin-left: 5.6875rem;
 }
 #React {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 8px;
-    padding: 18px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.5rem;
+    padding: 1.125rem;
     margin-top: 0;
-    margin-right: 93px;
+    margin-right: 5.8125rem;
 }
 #React img {
-    margin-right: 23px;
+    margin-right: 1.4375rem;
 }
 #React span {
-    margin-left: 176px;
+    margin-left: 11rem;
 }
 #NodeJS {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 12px;
-    padding: 18px;
-    margin-right: 25px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.75rem;
+    padding: 1.125rem;
+    margin-right: 1.5625rem;
 }
 #NodeJS img {
-    margin-right: 25px;
+    margin-right: 1.5625rem;
 }
 #NodeJS span {
-    margin-left: 20.27px;
+    margin-left: 1.2669rem;
 }
 #Management {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 12px;
-    padding: 18px;
-    margin-right: 213px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.75rem;
+    padding: 1.125rem;
+    margin-right: 13.3125rem;
 }
 #Management img {
-    margin-right: 31.6px;
+    margin-right: 1.975rem;
 }
 #Management span {
-    margin-left: 57px;
+    margin-left: 3.5625rem;
 }
 #Analytics {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 8px;
-    padding: 18px;
-    margin-right: 35px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.5rem;
+    padding: 1.125rem;
+    margin-right: 2.1875rem;
 }
 #Analytics img {
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 #Analytics span {
-    margin-left: 58px;
+    margin-left: 3.625rem;
 }
 #Brainstroming {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 10px;
-    padding: 18px;
-    margin-right: 156px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.625rem;
+    padding: 1.125rem;
+    margin-right: 9.75rem;
 }
 #Brainstroming img {
-    margin-right: 28.71px;
+    margin-right: 1.7944rem;
 }
 #Brainstroming span {
-    margin-left: 38px;
+    margin-left: 2.375rem;
 }
 #Execution {
     background: #2C2C2C;
-    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
-    border-radius: 10px;
+    box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
+    border-radius: 0.625rem;
     width: 482px;
-    padding: 18px;
-    margin-right: 320px;
+    padding: 1.125rem;
+    margin-right: 20rem;
 }
 #Execution img {
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 #Execution span {
-    margin-left: 270px;
+    margin-left: 16.875rem;
 }
 .temoignages {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 149px 511px 188.64px 502px;
+    padding: 9.3125rem 31.9375rem 11.79rem 31.375rem;
 }
 .temoignages h2 {
     text-align: center;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 60px;
-    margin-bottom: 90px;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
+    margin-bottom: 5.625rem;
     margin-top: 0;
 
 }
@@ -450,116 +451,227 @@ header img{
     display: flex;
 }
 .temoignages img {
-    margin-right: 40px;
-    border-radius: 60px 25px 60px 60px;
+    margin-right: 2.5rem;
+    border-radius: 3.75rem 1.5625rem 3.75rem 3.75rem;
 }
 #texttemoignages p:nth-child(2) {
     margin-top: 0;
-    margin-bottom: 37.36px;
-    padding-right: 47px;
+    margin-bottom: 2.335rem;
+    padding-right: 2.9375rem;
     font-style: italic;
-    font-size: 21px;
-    line-height: 36px;
+    font-size: 1.3125rem;
+    line-height: 2.25rem;
 }
 #texttemoignages p:nth-child(2) span {
     text-decoration: underline;
-    text-underline-offset: 17px;
+    text-underline-offset: 1.0625rem;
     text-decoration-color: rgba(248, 127, 40, 1);
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 0.1875rem;
 }
 #texttemoignages p:nth-child(3) {
     margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 160px;
+    margin-bottom: 0.3125rem;
+    margin-left: 10rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
 }
 #texttemoignages p:nth-child(4) {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 160px;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: 0.5px;
+    margin-left: 10rem;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.0313rem;
 } 
 .actualité {
     display: flex;
-    padding: 127.82px 641px 330.64px 383px ;
+    padding: 7.9887rem 40.0625rem 20.665rem 23.9375rem ;
     box-sizing: border-box;
 }
 #actualité-left {
-    margin-right: 92.66px;
+    margin-right: 5.7912rem;
 }
 #actualité-left h2{
     margin: 0;
 }
 #actualité-right {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 #date-actualité {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 17px;
-    letter-spacing: 2px;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.125rem;
     text-transform: uppercase;
     color: #F87F28 ;
-    margin-top: 0px;
-    margin-bottom: 7px;
+    margin-top: 0rem;
+    margin-bottom: 0.4375rem;
 }
 #titreactualité {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
     text-transform: capitalize;
     margin-top: 0;
-    margin-bottom: 13px;
+    margin-bottom: 0.8125rem;
 }
 #textactualité {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-top: 0;
-    margin-bottom: 40px;
-    padding-right: 86px;
+    margin-bottom: 2.5rem;
+    padding-right: 5.375rem;
 }
 #textactualité p {
-    padding-right: 86px;
+    padding-right: 5.375rem;
 }
 .contact {
     display: flex;
-    padding: 0px 364px 86px 387px;
-    column-gap: 152px;
+    padding: 0rem 22.75rem 3.125rem 24.1875rem;
+    column-gap: 10.6875rem;
     box-sizing: border-box;
 }
 #contact-left h3 {
     font-weight: 600;
-    font-size: 36px;
-    line-height: 60px;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
     text-transform: capitalize;
     color: #BFBFBF;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
-#contact-left 
 #imagecontact {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     letter-spacing: -0.01em;
     color: #F87F28;
     margin: 0;
 }
 #imagecontact img {
     background: #F87F28;
-    border-radius: 50px 20px 50px 50px;
-    padding: 11px;
-    margin-right: 24px;
+    border-radius: 3.125rem 1.25rem 3.125rem 3.125rem;
+    padding: 0.6875rem;
+    margin-right: 1.5rem;
 }
 #info {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     margin-top: 0;
-    padding-left: 65px;
-    margin-bottom: 53px;
+    padding-left: 4.0625rem;
+    margin-bottom: 2.5rem;
+}
+#contact-right h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+#contact-right p:nth-child(2){
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+#contact-right p:nth-child(3) {
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-right: 4.6875rem;
+}
+.formulaire {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+#nom,#email,#message {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #E5E9F1;
+}
+#nom {
+    margin-right: 4.375rem;
+    width: 253px;
+}
+#message {
+    margin-bottom: 1.75rem;
+}
+#nom fieldset {
+    border: 0.0625rem solid #828282;
+    border-radius: 0.25rem;
+}
+#email fieldset {
+    border: 0.0625rem solid #828282;
+    border-radius: 0.25rem;
+}
+#message fieldset {
+    border: 0.0625rem solid #828282;
+    border-radius: 0.25rem;
+}
+textarea {
+    background: transparent;
+    border: 0;
+}
+@media screen and (max-width: 375px) {
+    .box {
+        display: block;
+        width: 375px;
+    }
+    .compétences, header p:nth-child(2),header p:nth-child(3),.image,.temoignages img{
+        display: none;
+    }
+    body {
+        margin: 0;
+        background-image: url(image/media-queries.jpg);
+        width: 375px;
+    }
+    header {
+        padding: 22px 22px 49px 30px;
+        margin: 0;
+    }
+    header h2{
+        margin-right: 188px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    #menu {
+        margin: 0;
+        display: flex;
+        width: 49px;
+    }
+    header img {
+        margin: 0;
+        background: #F87F28;
+        padding: 17px;
+        width: 19.1px;
+        border-radius: 50%;
+    }
+    .acceuil {
+        padding: 0 27px 72px 27px;
+    }
+    .services {
+        margin: 0px;
+    }
+    .portfolio {
+        padding: 0;
+    }
+    .skill {
+        padding: 0;
+    }
+    .text {
+        padding: 0;
+        margin: 0;
+    }
 }
