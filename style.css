@@ -78,7 +78,7 @@ header img{
 .text p:first-child {
     font-family: 'Roboto';
     font-size: 0.875rem;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.25rem;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 2.0625rem;
@@ -166,6 +166,24 @@ header img{
     margin-right: 3.75rem;
     margin-bottom: 3.75rem;
 }
+.logo img:nth-child(1) {
+    width: 109px;
+}
+.logo img:nth-child(2) {
+    width: 73.5px;
+}
+.logo img:nth-child(3) {
+    width: 205.31px;
+}
+.logo img:nth-child(4) {
+    width: 167.11px;
+}
+.logo img:nth-child(5) {
+    width: 131.2px;
+}
+.logo img:nth-child(6) {
+    width: 158.57px;
+}
 .services {
     margin-left: 25.1875rem;
     margin-right: 25.125rem;
@@ -241,15 +259,32 @@ header img{
     margin-right: 2.0169rem;
     font-size: 0.875rem;
 }
+#astronaute {
+    width: 480px;
+}
+#hello {
+    width: 227px;
+}
 #astronaute,#hello {
    margin-bottom: 1.5rem;
    margin-right: 1.5rem;
+   
+}
+#bureaux {
+    width: 227px;
+}
+#waterbox {
+    width: 479px;
 }
 #bureaux,#waterbox {
     margin-bottom : 1.5rem;
 }
 #writing {
     margin-right: 1.5rem;
+    width: 347px;
+}
+#blue {
+    width: 359px;
 }
 .experience {
     display: flex;
@@ -625,26 +660,28 @@ textarea {
         display: block;
         width: 375px;
     }
-    .compétences, header p:nth-child(2),header p:nth-child(3),.image,.temoignages img{
+    .compétences, header p:nth-child(2),header p:nth-child(3),.image,.temoignages img, .experiencedescription,#contact-right h3{
         display: none;
     }
     body {
         margin: 0;
         background-image: url(image/media-queries.jpg);
-        width: 375px;
+        
+        font-size: 14px;
     }
     header {
         padding: 22px 22px 49px 30px;
         margin: 0;
     }
     header h2{
-        margin-right: 188px;
+        margin-right: 171.84px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
         line-height: 36px;
         margin-top: 0;
+        margin-bottom: 0;
     }
     #menu {
         margin: 0;
@@ -660,18 +697,190 @@ textarea {
     }
     .acceuil {
         padding: 0 27px 72px 27px;
-    }
-    .services {
-        margin: 0px;
-    }
-    .portfolio {
-        padding: 0;
-    }
-    .skill {
-        padding: 0;
+        display: block;
+        width: 375px;
     }
     .text {
         padding: 0;
         margin: 0;
+        width: 321px;
     }
+    .text h1 {
+        font-size: 40px;
+        margin-bottom: 36.44px;
+        line-height: 65px;
+    }
+    .text h1 span {
+        font-size: 72px;
+        letter-spacing: -1px;
+    }
+    .text p:first-child {
+        margin-bottom: 8.11px;
+    }
+    .text p:nth-child(3) {
+        font-size: 16px;
+        margin-right: 0px;
+    }
+    .text a:nth-child(2) {
+        margin-left: 23px;
+        margin-right: 46px;
+    }
+    .text p:nth-child(5) {
+        margin-bottom: 67.3px;
+    }
+    .client p {
+        margin: 0 0 45.21px 0;
+        text-align: start;
+
+    }
+    .logo {
+        display: grid; 
+        grid: 1fr 1fr 1fr/ 1fr 1fr;
+        box-sizing: border-box;
+    }
+    .logo img {
+        margin: 0;
+    }
+    .logo img:nth-child(1){
+        width: 110.78px;
+        margin-left: 40px;
+    }
+    .logo img:nth-child(2) {
+        width: 83px;
+        margin-left: 40px;
+    }
+    .logo img:nth-child(3) {
+        width: 187.5px;
+    }
+    .logo img:nth-child(4) {
+        width: 152.49px;
+    }
+    .logo img:nth-child(5){
+        margin-left: 40px;
+        width: 131.2px;
+    }
+    .services {
+        margin: 0px;
+        padding: 0px 26px 49px 27.85px ;
+    }
+    .portfolio {
+        padding: 0 31.73px 83.35px 29.51px;
+        flex-direction: column;
+    }
+    #astronaute,#hello,#bureaux,#waterbox,#writing,#blue {
+        width: 313.76px;
+    }
+    .textportfolio {
+        padding: 0px 0px 41px 0px;
+    }
+    .textportfolio p {
+        margin: 0px;
+    }
+    .skill {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 40.79px;
+    }
+    .tableau {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    #col h3 {
+        margin-top: 8.2px;
+        margin-bottom: 16px;
+    }
+    #col:first-child p {
+        margin-right: 58px;
+    }
+    #col:nth-child(2) p {
+        margin-right: 0px;
+    }
+    #col:nth-child(3) p {
+        margin-right: 34px;
+    }
+
+    .experience {
+        padding: 0px 37.5px 60px 29.5px;
+        flex-direction: column;
+    }
+    
+    .experiencedate {
+        padding: 0;
+    }
+    
+    .experiencetext {
+        padding: 0;
+    }
+    .experiencetext h2 {
+        margin-bottom: 47px;
+    }
+    #descriptionexperience {
+        margin-right: 65.5px;
+    }
+    .temoignages {
+        padding: 0px 37.5px 82px 38px;
+        text-align: start;
+    }
+    .temoignages h2 {
+        text-align: start;
+        margin-bottom: 53px;
+    }
+    #texttemoignages p:nth-child(2) {
+        padding: 0px;
+    }
+    #texttemoignages p:nth-child(2) span {
+        text-decoration: none;
+    }
+    #texttemoignages p:nth-child(3) {
+        margin: 0px;
+    }
+    #texttemoignages p:nth-child(4) {
+        margin: 0px;
+    }
+    .actualité {
+        padding: 0px  37.5px 61.18px 38px;
+        flex-direction: column;
+    }
+    #actualité-right {
+        padding-top: 31px;
+    }
+    #textactualité {
+        padding-right: 0px;
+        margin-right: 100px;
+    }
+    .contact {
+        padding: 0px ;
+        flex-direction: column;
+        padding: 0px 37.5px 25.78px 29.29px;
+    }
+    #contact-left h3 {
+        margin-bottom: 26px;
+    }
+    #imagecontact {
+        display: flex;
+        align-items: center;
+    }
+    #info {
+        font-size: 16px;
+        margin-bottom: 41px;
+    }
+    .formulaire {
+        flex-direction: column;
+        margin: 0px;
+    }
+    #nom {
+        margin-right: 0px;
+    }
+    .skill {
+        text-align: start;
+    }
+    #message fieldset {
+        width: 250px;
+        margin: 0px 37.5px 0 29.29px;
+    }
+    #message textarea {
+        width: 250px;
+        min-height: 155px;
+    }
+
 }
