@@ -3,12 +3,11 @@
 }
 body {
     margin: 0;
-    background-image: url(image/backdesk.png);
+    background-image: url(image/backdesk.webp);
     background-size: cover;
-    font-family: 'Inter';
+    font: 1rem 'Inter' ;
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
     line-height: 1.5rem;
     color: #FFFFFF;
 }
@@ -32,9 +31,8 @@ header {
 }
 header h2 {
     margin-right: 6.25rem;
-    font-family: 'Roboto';
+    font: 2rem 'Roboto';
     font-weight: 900;
-    font-size: 2rem;
     line-height: 2.25rem;
     color: #FFFFFF;  
 }
@@ -76,8 +74,7 @@ header img{
     text-decoration-thickness: 0.1875rem;
 }
 .text p:first-child {
-    font-family: 'Roboto';
-    font-size: 0.875rem;
+    font: 0.875rem 'Roboto' ;
     letter-spacing: 0.25rem;
     text-transform: uppercase;
     margin-top: 0;
@@ -115,16 +112,14 @@ header img{
     border-radius: 3.125rem;
     padding: 0.75rem 2rem;
     text-decoration: none;
-    font-family: 'Roboto';
-    font-size: 0.875rem;
+    font: 0.875rem 'Roboto';
     color: #FFFFFF;
     display: inline-block;
 }
 .text a:nth-child(2) {
     border: 0.125rem solid #F87F28;
     border-radius: 3.125rem;
-    font-family: 'Roboto';
-    font-size: 0.875rem;
+    font:  0.875rem 'Roboto';
     line-height: 1.5rem;
     color: #F87F28;
     padding: 0.75rem 2rem;
@@ -143,10 +138,9 @@ header img{
    
 }
 .client p{
-    font-family: 'Roboto';
+    font: 0.75rem 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.75rem;
     line-height: 1.9375rem;
     text-align: center;
     letter-spacing: 0.1875rem;
@@ -161,28 +155,29 @@ header img{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    padding-left: 150px;
 }
 .logo img {
     margin-right: 3.75rem;
     margin-bottom: 3.75rem;
 }
 .logo img:nth-child(1) {
-    width: 109px;
+    width: 6.8125rem;
 }
 .logo img:nth-child(2) {
-    width: 73.5px;
+    width: 4.5938rem;
 }
 .logo img:nth-child(3) {
-    width: 205.31px;
+    width: 12.8319rem;
 }
 .logo img:nth-child(4) {
-    width: 167.11px;
+    width: 10.4444rem;
 }
 .logo img:nth-child(5) {
-    width: 131.2px;
+    width: 8.2rem;
 }
 .logo img:nth-child(6) {
-    width: 158.57px;
+    width: 9.9106rem;
 }
 .services {
     margin-left: 25.1875rem;
@@ -271,10 +266,10 @@ header img{
    
 }
 #bureaux {
-    width: 227px;
+    width: 14.1875rem;
 }
 #waterbox {
-    width: 479px;
+    width: 29.9375rem;
 }
 #bureaux,#waterbox {
     margin-bottom : 1.5rem;
@@ -287,12 +282,15 @@ header img{
     width: 359px;
 }
 .experience {
-    display: flex;
+    display: grid ;
+    grid: 1fr / 380px 1fr;
     padding-left: 24.375rem;
     padding-right: 22.5rem;
     padding-bottom: 7.875rem;
 }
 .experiencetext {
+    grid-row-start: 1;
+    grid-column-start: 1;
     padding-right: 7.5625rem;
 }
 .experiencetext h2 {
@@ -302,15 +300,21 @@ header img{
 #descriptionexperience {
     margin-top: 0;
     margin-bottom: 2.5625rem;
-    margin-right: 7.5625rem;
 }
 .experiencetext p:nth-child(3) {
     margin-top: 0;
     margin-bottom: 0;
 }
 .experiencetableau {
+    grid-row-start: 1;
+    grid-column-start: 2;
     display: grid;
     grid-template-columns: repeat(2,3fr);
+}
+.bouton {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin-top: 17.8125rem;
 }
 .experiencedate {
     padding-right: 4.6875rem;
@@ -318,9 +322,8 @@ header img{
 .experiencedate p {
     margin-top: 0rem;
     margin-bottom: 0.8125rem;
-    font-family: 'Roboto';
+    font: 0.75rem 'Roboto';
     font-weight: 700;
-    font-size: 0.75rem;
     line-height: 1.0625rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
@@ -534,10 +537,9 @@ header img{
     padding-top: 1.25rem;
 }
 #date-actualité {
-    font-family: 'Roboto';
+    font: 0.75rem 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 0.75rem;
     line-height: 1.0625rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
@@ -583,6 +585,8 @@ header img{
     letter-spacing: -0.01em;
     color: #F87F28;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 #imagecontact img {
     background: #F87F28;
@@ -599,9 +603,8 @@ header img{
     margin-bottom: 2.5rem;
 }
 #contact-right h3 {
-    font-family: 'Roboto';
+    font: 0.75rem 'Roboto';
     font-weight: 700;
-    font-size: 0.75rem;
     line-height: 1.0625rem;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
@@ -627,9 +630,8 @@ header img{
     margin-bottom: 1.5rem;
 }
 #nom,#email,#message {
-    font-family: 'Roboto';
+    font: 0.875rem 'Roboto';
     font-weight: 400;
-    font-size: 0.875rem;
     color: #E5E9F1;
 }
 #nom {
@@ -658,78 +660,77 @@ textarea {
 @media screen and (max-width: 375px) {
     .box {
         display: block;
-        width: 375px;
+        width: 23.4375rem;
     }
     .compétences, header p:nth-child(2),header p:nth-child(3),.image,.temoignages img, .experiencedescription,#contact-right h3{
         display: none;
     }
     body {
         margin: 0;
-        background-image: url(image/media-queries.jpg);
+        background-image: url(image/media-queries.webp);
         
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     header {
-        padding: 22px 22px 49px 30px;
+        padding: 1.375rem 1.375rem 3.0625rem 1.875rem;
         margin: 0;
     }
     header h2{
-        margin-right: 171.84px;
-        font-family: 'Roboto';
+        margin-right: 10.74rem;
+        font: 2rem 'Roboto';
         font-style: normal;
         font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
+        line-height: 2.25rem;
         margin-top: 0;
         margin-bottom: 0;
     }
     #menu {
         margin: 0;
         display: flex;
-        width: 49px;
+        width: 3.0625rem;
     }
     header img {
         margin: 0;
         background: #F87F28;
-        padding: 17px;
-        width: 19.1px;
+        padding: 1.0625rem;
+        width: 1.1938rem;
         border-radius: 50%;
     }
     .acceuil {
-        padding: 0 27px 72px 27px;
+        padding: 0 1.6875rem 4.5rem 1.6875rem;
         display: block;
-        width: 375px;
+        width: 23.4375rem;
     }
     .text {
         padding: 0;
         margin: 0;
-        width: 321px;
+        width: 20.0625rem;
     }
     .text h1 {
-        font-size: 40px;
-        margin-bottom: 36.44px;
-        line-height: 65px;
+        font-size: 2.5rem;
+        margin-bottom: 2.2775rem;
+        line-height: 4.0625rem;
     }
     .text h1 span {
-        font-size: 72px;
-        letter-spacing: -1px;
+        font-size: 4.5rem;
+        letter-spacing: -0.0625rem;
     }
     .text p:first-child {
-        margin-bottom: 8.11px;
+        margin-bottom: 0.5069rem;
     }
     .text p:nth-child(3) {
-        font-size: 16px;
-        margin-right: 0px;
+        font-size: 1rem;
+        margin-right: 0rem;
     }
     .text a:nth-child(2) {
-        margin-left: 23px;
-        margin-right: 46px;
+        margin-left: 1.4375rem;
+        margin-right: 2.875rem;
     }
     .text p:nth-child(5) {
-        margin-bottom: 67.3px;
+        margin-bottom: 4.2062rem;
     }
     .client p {
-        margin: 0 0 45.21px 0;
+        margin: 0 0 2.8256rem 0;
         text-align: start;
 
     }
@@ -737,150 +738,188 @@ textarea {
         display: grid; 
         grid: 1fr 1fr 1fr/ 1fr 1fr;
         box-sizing: border-box;
+        padding: 0;
     }
     .logo img {
         margin: 0;
     }
     .logo img:nth-child(1){
-        width: 110.78px;
-        margin-left: 40px;
+        width: 6.9238rem;
+        margin-left: 2.5rem;
     }
     .logo img:nth-child(2) {
-        width: 83px;
-        margin-left: 40px;
+        width: 5.1875rem;
+        margin-left: 1.875rem;
     }
     .logo img:nth-child(3) {
-        width: 187.5px;
+        width: 11.7188rem;
     }
     .logo img:nth-child(4) {
-        width: 152.49px;
+        width: 9.5306rem;
     }
     .logo img:nth-child(5){
-        margin-left: 40px;
-        width: 131.2px;
+        margin-left: 1.875rem;
+        width: 8.2rem;
     }
     .services {
-        margin: 0px;
-        padding: 0px 26px 49px 27.85px ;
+        margin: 0rem;
+        padding: 0rem 1.625rem 3.0625rem 1.7406rem ;
     }
     .portfolio {
-        padding: 0 31.73px 83.35px 29.51px;
+        padding: 0 1.9831rem 5.2094rem 1.8444rem;
         flex-direction: column;
     }
     #astronaute,#hello,#bureaux,#waterbox,#writing,#blue {
-        width: 313.76px;
+        width: 19.61rem;
     }
     .textportfolio {
-        padding: 0px 0px 41px 0px;
+        padding: 0rem 0rem 2.5625rem 0rem;
     }
     .textportfolio p {
-        margin: 0px;
+        margin: 0rem;
     }
     .skill {
         padding: 0;
         margin-top: 0;
-        margin-bottom: 40.79px;
+        margin-bottom: 2.5494rem;
     }
     .tableau {
         flex-direction: column;
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
     }
     #col h3 {
-        margin-top: 8.2px;
-        margin-bottom: 16px;
+        margin-top: 0.5125rem;
+        margin-bottom: 1rem;
     }
     #col:first-child p {
-        margin-right: 58px;
+        margin-right: 3.625rem;
     }
     #col:nth-child(2) p {
-        margin-right: 0px;
+        margin-right: 0rem;
     }
     #col:nth-child(3) p {
-        margin-right: 34px;
+        margin-right: 2.125rem;
     }
 
     .experience {
-        padding: 0px 37.5px 60px 29.5px;
-        flex-direction: column;
+        padding: 0rem 2.3438rem 3.75rem 1.8438rem;
+        display: grid;
+        grid: 17.1875rem 1fr 6.25rem/ 1fr;
+        box-sizing: border-box;
     }
     
     .experiencedate {
         padding: 0;
+        width: 18.75rem;
     }
-    
+    .experiencetableau {
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+    .experiencedate h3 {
+        margin-bottom: 3.125rem;
+    }
     .experiencetext {
         padding: 0;
+        display: grid;
     }
     .experiencetext h2 {
-        margin-bottom: 47px;
+        margin-bottom: 2.9375rem;
+    }
+    .bouton {
+        grid-row-start: 3;
+        margin-top: 0;
     }
     #descriptionexperience {
-        margin-right: 65.5px;
+        margin-right: 4.0938rem;
     }
     .temoignages {
-        padding: 0px 37.5px 82px 38px;
+        padding: 0rem 2.3438rem 5.125rem 2.375rem;
         text-align: start;
     }
     .temoignages h2 {
         text-align: start;
-        margin-bottom: 53px;
+        margin-bottom: 3.3125rem;
+    }
+    #texttemoignages span {
+        text-decoration: none;
     }
     #texttemoignages p:nth-child(2) {
-        padding: 0px;
+        padding: 0rem;
     }
     #texttemoignages p:nth-child(2) span {
         text-decoration: none;
     }
     #texttemoignages p:nth-child(3) {
-        margin: 0px;
+        margin: 0rem;
     }
     #texttemoignages p:nth-child(4) {
-        margin: 0px;
+        margin: 0rem;
     }
     .actualité {
-        padding: 0px  37.5px 61.18px 38px;
+        padding: 0rem  2.3438rem 3.8237rem 2.375rem;
         flex-direction: column;
     }
     #actualité-right {
-        padding-top: 31px;
+        padding-top: 1.9375rem;
     }
     #textactualité {
-        padding-right: 0px;
-        margin-right: 100px;
+        padding-right: 0rem;
+        margin-right: 6.25rem;
+    }
+    #actualité-right p:nth-child(9) {
+        margin-bottom: 0;
     }
     .contact {
-        padding: 0px ;
+        padding: 0rem ;
         flex-direction: column;
-        padding: 0px 37.5px 25.78px 29.29px;
+        padding: 0rem 2.3438rem 1.6113rem 1.8306rem;
+    }
+    #contact-right p:nth-child(2) {
+        color: #BFBFBF;
+    }
+    #contact-right p:nth-child(3) {
+        margin-bottom: 2.375rem;
+        margin-right: 1.25rem;
+    }
+    #contact-right p {
+        margin-left: 0.3688rem;
     }
     #contact-left h3 {
-        margin-bottom: 26px;
-    }
-    #imagecontact {
-        display: flex;
-        align-items: center;
+        margin-bottom: 1.625rem;
     }
     #info {
-        font-size: 16px;
-        margin-bottom: 41px;
+        font-size: 1rem;
+        margin-bottom: 2.5625rem;
     }
     .formulaire {
         flex-direction: column;
-        margin: 0px;
+        margin: 0rem;
     }
     #nom {
-        margin-right: 0px;
+        margin-right: 0rem;
+        margin-bottom: 32.67px;
+        width: 19.25rem;
+    }
+    #email {
+        width: 19.25rem;
+        margin-bottom: 25px;
     }
     .skill {
         text-align: start;
     }
-    #message fieldset {
-        width: 250px;
-        margin: 0px 37.5px 0 29.29px;
-    }
     #message textarea {
-        width: 250px;
-        min-height: 155px;
+        width: 15.625rem;
+        min-height: 9.6875rem;
+    }
+    #contact-right a {
+        text-align: center;
+        padding: 11px 32px;
+        line-height: 24px;
+        font-size: 14px;
+        width: 101px;
+        min-height: 25px;
+        margin-right: 182px;
     }
 
 }
