@@ -692,18 +692,18 @@ textarea {
     }
     header a {
         margin: 0;
+        background: #F87F28;
+        padding: 1.0625rem;
+        width: 1.1938rem;
+        border-radius: 50%;
+    }
+    .burger-icone span{
+        background-color: #FFFFFF;
     }
     #menu {
         margin: 0;
         display: flex;
         width: 3.0625rem;
-    }
-    header img {
-        margin: 0;
-        background: #F87F28;
-        padding: 1.0625rem;
-        width: 1.1938rem;
-        border-radius: 50%;
     }
     .acceuil {
         padding: 0 1.6875rem 4.5rem 1.6875rem;
