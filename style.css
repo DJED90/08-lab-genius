@@ -42,7 +42,7 @@ header p {
 header img{
     margin-right: 0.6094rem;
 }
-header a {
+.burger-icone {
     margin-left: 1000px;
 }
 .burger-icone span{
@@ -112,7 +112,7 @@ header a {
     color: #F87F28;
     font-weight: 700;
 }
-#rouge{
+.rouge{
     background: #BB2323;
     box-shadow: 0rem 0rem 1.875rem rgba(0, 0, 0, 0.2);
     border-radius: 3.125rem;
@@ -210,36 +210,36 @@ header a {
     justify-content: center;
     margin-bottom: 13.5rem;
 }
-#col {
+.col {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
-#col img{
+.col img{
     background: #FFFFFF;
     box-shadow: 0rem 0rem 1.8125rem rgba(68, 88, 144, 0.12);
     border-radius: 1.125rem;
     padding: 1rem;
 }
-#col h3 {
+.col h3 {
     margin-top: 2.1875rem;
     margin-bottom: 1rem;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.375rem;
 }
-#col p {
+.col p {
     margin-top: 0;
     font-size: 0.875rem;
     line-height: 1.5rem;
 }
-#col:first-child p {
+.col:first-child p {
     margin-right: 7.1875rem;
 }
-#col:nth-child(2) p {
+.col:nth-child(2) p {
     margin-right: 7rem;
 }
-#col:nth-child(3) p {
+.col:nth-child(3) p {
     margin-right: 7rem;
 }
 .portfolio {
@@ -247,9 +247,6 @@ header a {
     padding: 6.75rem 21.875rem 14.8125rem 23.25rem;
     display: flex;
     justify-content: center;
-}
-.textportfolio {
-    padding-right: 4.8125rem;
 }
 .textportfolio h2 {
     margin-top: 0;
@@ -262,6 +259,7 @@ header a {
 }
 #astronaute {
     width: 480px;
+    margin: 0;
 }
 #hello {
     width: 227px;
@@ -542,7 +540,7 @@ header a {
 #actualité-right {
     padding-top: 1.25rem;
 }
-#date-actualité {
+.date-actualité {
     font: 0.75rem 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -553,7 +551,7 @@ header a {
     margin-top: 0rem;
     margin-bottom: 0.4375rem;
 }
-#titreactualité {
+.titreactualité {
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 1.625rem;
@@ -561,13 +559,13 @@ header a {
     margin-top: 0;
     margin-bottom: 0.8125rem;
 }
-#textactualité {
+.textactualité {
     font-size: 0.875rem;
     margin-top: 0;
     margin-bottom: 2.5rem;
     padding-right: 5.375rem;
 }
-#textactualité p {
+.textactualité p {
     padding-right: 5.375rem;
 }
 .contact {
@@ -585,7 +583,7 @@ header a {
     margin-top: 0;
     margin-bottom: 1.875rem;
 }
-#imagecontact {
+.imagecontact {
     font-weight: 500;
     font-size: 0.875rem;
     letter-spacing: -0.01em;
@@ -594,13 +592,13 @@ header a {
     display: flex;
     align-items: center;
 }
-#imagecontact img {
+.imagecontact img {
     background: #F87F28;
     border-radius: 3.125rem 1.25rem 3.125rem 3.125rem;
     padding: 0.6875rem;
     margin-right: 1.5rem;
 }
-#info {
+.info {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -690,12 +688,11 @@ textarea {
         margin-top: 0;
         margin-bottom: 0;
     }
-    header a {
-        margin: 0;
+    .burger-icone {
         background: #F87F28;
         padding: 1.0625rem;
-        width: 1.1938rem;
         border-radius: 50%;
+        margin: 0;
     }
     .burger-icone span{
         background-color: #FFFFFF;
@@ -779,7 +776,16 @@ textarea {
         flex-direction: column;
     }
     #astronaute,#hello,#bureaux,#waterbox,#writing,#blue {
-        width: 19.61rem;
+        width: 313.76px;
+    }
+    #hello,#waterbox,#writing,#blue {
+        height: 264px;       
+    }
+    #astronaute {
+        height: 171.92px;
+    }
+    #bureaux {
+        height: 266px;
     }
     .textportfolio {
         padding: 0rem 0rem 2.5625rem 0rem;
@@ -796,17 +802,17 @@ textarea {
         flex-direction: column;
         margin-bottom: 0rem;
     }
-    #col h3 {
+    .col h3 {
         margin-top: 0.5125rem;
         margin-bottom: 1rem;
     }
-    #col:first-child p {
+    .col:first-child p {
         margin-right: 3.625rem;
     }
-    #col:nth-child(2) p {
+    .col:nth-child(2) p {
         margin-right: 0rem;
     }
-    #col:nth-child(3) p {
+    .col:nth-child(3) p {
         margin-right: 2.125rem;
     }
 
@@ -872,7 +878,7 @@ textarea {
     #actualité-right {
         padding-top: 1.9375rem;
     }
-    #textactualité {
+    .textactualité {
         padding-right: 0rem;
         margin-right: 6.25rem;
     }
@@ -897,7 +903,7 @@ textarea {
     #contact-left h3 {
         margin-bottom: 1.625rem;
     }
-    #info {
+    .info {
         font-size: 1rem;
         margin-bottom: 2.5625rem;
     }
