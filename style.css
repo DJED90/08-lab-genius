@@ -570,7 +570,7 @@ header img{
 }
 .contact {
     display: flex;
-    padding: 0rem 22.75rem 3.125rem 24.1875rem;
+    padding: 0px 350px 50px 387px;
     column-gap: 10.6875rem;
     box-sizing: border-box;
 }
