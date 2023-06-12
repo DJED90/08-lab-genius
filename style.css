@@ -776,16 +776,16 @@ textarea {
         flex-direction: column;
     }
     #astronaute,#hello,#bureaux,#waterbox,#writing,#blue {
-        width: 313.76px;
+        width: 19.61rem;
     }
     #hello,#waterbox,#writing,#blue {
-        height: 264px;       
+        height: 16.5rem;       
     }
     #astronaute {
-        height: 171.92px;
+        height: 10.745rem;
     }
     #bureaux {
-        height: 266px;
+        height: 16.625rem;
     }
     .textportfolio {
         padding: 0rem 0rem 2.5625rem 0rem;
@@ -913,12 +913,12 @@ textarea {
     }
     #nom {
         margin-right: 0rem;
-        margin-bottom: 32.67px;
+        margin-bottom: 2.0419rem;
         width: 19.25rem;
     }
     #email {
         width: 19.25rem;
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
     }
     .skill {
         text-align: start;
@@ -929,12 +929,12 @@ textarea {
     }
     #contact-right a {
         text-align: center;
-        padding: 11px 32px;
-        line-height: 24px;
-        font-size: 14px;
-        width: 101px;
-        min-height: 25px;
-        margin-right: 182px;
+        padding: 0.6875rem 2rem;
+        line-height: 1.5rem;
+        font-size: 0.875rem;
+        width: 6.3125rem;
+        min-height: 1.5625rem;
+        margin-right: 11.375rem;
     }
 
 }
