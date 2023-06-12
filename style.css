@@ -690,6 +690,9 @@ textarea {
         margin-top: 0;
         margin-bottom: 0;
     }
+    header a {
+        margin: 0;
+    }
     #menu {
         margin: 0;
         display: flex;
