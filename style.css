@@ -42,9 +42,15 @@ header p {
 header img{
     margin-right: 0.6094rem;
 }
-#menu {
-    margin-left: 64.8125rem;
-    margin-right: 0rem;
+header a {
+    margin-left: 1000px;
+}
+.burger-icone span{
+    display: block;
+    width: 1.5rem;
+    min-height: 0.125rem;
+    margin: 0.375rem 0;
+    background-color: #888888;
 }
 .container {
     min-height: 100vh;
